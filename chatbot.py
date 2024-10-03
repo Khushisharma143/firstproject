@@ -6,14 +6,14 @@
 }
 
 def get_response(user_input):
-    # Convert user input to lowercase
+   
     user_input = user_input.lower()
-    # Check if user input is in the responses dictionary
+   
     if user_input in responses:
-        # Return a random response from the list of responses
+   
         return responses.choice(responses[user_input])
     else:
-        # Return a default response if user input is not in the dictionary
+   
         return 'I did not understand that.'
 
 def main():
