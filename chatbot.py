@@ -2,7 +2,7 @@
     'hello': ['Hi!', 'Hello!', 'Hey!'],
     'how are you': ['I am good, thanks!', 'I am fine, thanks!', 'I am great, thanks!'],
     'what is your name': ['My name is ChatBot!', 'I am ChatBot!', 'You can call me ChatBot!'],
-    'exit': ['Goodbye!', 'See you later!', 'Have a nice day!']
+    'byy': ['Goodbye!', 'See you later!', 'Have a nice day!']
 }
 
 def get_response(user_input):
